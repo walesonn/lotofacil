@@ -38,7 +38,7 @@ prompt.on('line', (input: string) => {
     if (excluded.length === 7) {
         console.log('aguarde...');
         setTimeout(() => {
-            process.stdout.write(randomNumbers(excluded).join())
+            process.stdout.write(`\x1b[36m${randomNumbers(excluded).join()}\x1b[0m`)
             prompt.close()
         }, 5000)
     } else {
