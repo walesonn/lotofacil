@@ -1,0 +1,24 @@
+{
+  "name": "lotofacil",
+  "version": "1.0.0",
+  "description": "Gerar números de aposta de jogos lotofacil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/generator",
+    "prestart": "npx tsc --project tsconfig.json"
+  },
+  "keywords": [
+    "lotofacil",
+    "jogos",
+    "apostas"
+  ],
+  "author": "waleson melo",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1"
+  }
+}
