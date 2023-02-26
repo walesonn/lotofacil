@@ -1,3 +1,3 @@
-### USAGE ###
-# npm install #
-# npm run start #
+# USAGE #
+* npm install *
+* npm run start *
